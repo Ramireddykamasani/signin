@@ -1,0 +1,65 @@
+export const styles = {
+    container: {
+      height: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      background: "#F5BF45",
+    },
+    input: {
+      width: "50px",
+      height: "50px",
+      borderRadius: "100%",
+      border: "none",
+      outline: "none",
+      textAlign: "center",
+      fontSize: "20px",
+      maxLength: 1,
+    },
+    response: {
+      color: "#F62B2A",
+      fontFamily: "Poppins",
+      fontSize: "17px",
+      fontWeight: "500",
+    },
+    text4: {
+      color: "#705A2C",
+      fontFamily: "Poppins",
+      fontSize: "14px",
+      fontWeight: "500",
+      "& span": {
+        fontSize: "14px",
+      },
+    },
+    otpContainer: {
+      height: "70vh",
+      width: "90%",
+      display: "flex",
+      justifyContent: "space-between",
+      flexDirection: "column",
+      alignItems: "center",
+    },
+    image: {
+      width: "70px",
+      height: "70px",
+      objectFit: "cover",
+    },
+    text1: {
+      color: "#18161B",
+      fontFamily: '"Montserrat Alternates", sans-serif',
+      fontSize: "20px",
+      fontWeight: "600",
+    },
+    text2: {
+      color: "#18161B",
+      fontFamily: "Poppins",
+      fontSize: "14px",
+      fontWeight: "500",
+    },
+    text3: {
+      color: "#18161B",
+      fontFamily: '"Montserrat Alternates", sans-serif',
+      fontSize: "17px",
+      fontWeight: "600",
+    },
+  }
