@@ -23,13 +23,14 @@ import Order from "./components/order/Order";
 import ErrorBoundary from "./errorboundary/ErrorBoundary";
 import { Suspense, lazy } from "react";
 import { Box } from "@mui/material";
+import AdminLogin from "./components/admin/AdminLogin";
 const LazyHomePage = lazy(() => import("../src/homepage/HomePage"));
 function App() {
   return (
     <ErrorBoundary>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<AdminLogin />} />
           <Route path="/homepage" element={<HomePage />} />
           <Route path="cart" element={<Cart />} />
           <Route path="register" element={<Register />} />
